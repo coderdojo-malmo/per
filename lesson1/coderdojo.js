@@ -1,7 +1,7 @@
-canvas = document.querySelector('canvas');
-context = canvas.getContext('2d');
+var canvas = document.querySelector('canvas');
+var context = canvas.getContext('2d');
 
-x = 0;
+var x = 0;
 
 setInterval(function() {
     context.fillStyle = 'black';
